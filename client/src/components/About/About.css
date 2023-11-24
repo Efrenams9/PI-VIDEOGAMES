@@ -1,0 +1,16 @@
+.about_general {
+    margin-top: 20%;
+    color: #0DB2F7;
+    position: flex;
+
+}
+.about_general h1, h2{
+    color: rgb(216, 0, 94);
+}
+.tech {
+    color:rgb(216, 0, 94)
+}
+.formatoImagen{
+    width: 20%;
+    
+}

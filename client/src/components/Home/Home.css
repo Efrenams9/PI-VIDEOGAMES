@@ -1,0 +1,23 @@
+/* Home.css */
+.pokemon-card {
+    background: black;
+    color: yellow;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid yellow;
+  }
+  
+  .pokemon-image {
+    width: 100%; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: auto;
+  }
+  
+  .pokemon-list {
+    background-color: transparent;
+    margin-top: 150px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  

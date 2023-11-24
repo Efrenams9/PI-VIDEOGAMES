@@ -1,0 +1,18 @@
+.barra {
+    color: yellow;
+    background-color: #000000;
+    width: 100%;
+    position: fixed; /* Establece la posición fija */
+    top: 0; /* Coloca la barra en la parte superior */
+    right: 0;
+    left: 0;
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+    display: inline-block;
+    justify-content: space-between;
+
+
+}
+
+.barra img {
+    width: 100px;
+}

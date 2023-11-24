@@ -1,0 +1,24 @@
+/* VideogameCard.css */
+.videogame-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .videogame-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .videogame-card h3 {
+    margin: 10px 0;
+  }
+  
+  .videogame-card a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
