@@ -23,16 +23,16 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(createVideogame(formData));
-    // Aquí puedes agregar lógica adicional si es necesario, como limpiar el formulario.
+    
   };
 
   return (
     <form onSubmit={handleSubmit}>
-      {/* Agrega los campos del formulario */}
+      
       <label htmlFor="name">Nombre:</label>
       <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
 
-      {/* Agrega los demás campos del formulario siguiendo un patrón similar */}
+     
 
       <button type="submit">Crear Videojuego</button>
     </form>

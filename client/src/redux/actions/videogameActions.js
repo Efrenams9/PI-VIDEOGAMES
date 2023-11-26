@@ -15,11 +15,13 @@ import { default as axios } from 'axios';
 export const getVideogames = () => async (dispatch) => {
   try {
     const res = await axios.get('/videogames');
+    console.log(res.data);
     dispatch({ type: 'GET_VIDEOGAMES', payload: res.data });
   } catch (error) {
     console.error('Error al obtener videojuegos', error);
   }
 };
+
 
 export const filterVideogames = (searchTerm) => (dispatch) => {
   dispatch({ type: 'FILTER_VIDEOGAMES', payload: searchTerm });

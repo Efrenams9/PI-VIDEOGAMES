@@ -13,7 +13,16 @@ const initialState = {
           ...state,
           videogames: [...state.videogames, action.payload],
         };
-  
+      case "GET_VIDEOGAMES":
+      return {
+        ...state,
+        videogames: action.payload
+      };
+      case "GET_DELETE":
+      return {
+        ...state,
+        videogames: action.payload
+      };
       default:
         return state;
     }
